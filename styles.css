@@ -5,6 +5,11 @@ body
 	font-family: "Courier New", Courier, monospace;
 }
 
+a:hover
+{
+	color: #ff0000;
+}
+
 #teamPicture
 {
 	margin: 100px;

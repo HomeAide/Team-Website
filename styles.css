@@ -10,6 +10,11 @@ a:hover
 	color: #ff0000;
 }
 
+div
+{
+	margin-right: 50%;
+}
+
 #teamPicture
 {
 	margin: 100px;
@@ -19,12 +24,18 @@ a:hover
 #TeamLogo
 {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 15%;
+	//margin-left: auto;
+	//margin-right: auto;
+	width: 10%;
 }
 
 #BioPic
 {
 	width: 15%;
+}
+
+#ToHomePage
+{
+	width: 80px;
+	height: 80px;
 }

@@ -5,218 +5,238 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="styles.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+        font-size: 200px
+    }
 </style>
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-green w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
-    <a href="teamPage.html" class="w3-bar-item w3-button w3-padding-large w3-white">The Team</a>
-    <a href="clientsPage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Clients</a>
-    <a href="documents.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Documents</a>
-    <a href="requirementsPage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Requirements</a>
-    <a href="schedulePage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Schedule</a>
-  </div>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="teamPage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Team</a>
+            <a href="clientsPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sponsors</a>
+            <a href="documents.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Documents</a>
+            <a href="requirementsPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Requirements</a>
+            <a href="solutionPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Solution</a>
+            <a href="technologiesPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Technologies</a>
+            <a href="schedulePage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Schedule</a>
+            <a href="codePage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Code</a>
+        </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">The Team</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Clients</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Documents</a>
-    <!--
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
-    -->
-  </div>
-</div>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="teamPage.html" class="w3-bar-item w3-button w3-padding-large">Team</a>
+            <a href="clientsPage.html" class="w3-bar-item w3-button w3-padding-large">Sponsors</a>
+            <a href="documents.html" class="w3-bar-item w3-button w3-padding-large">Documents</a>
+            <a href="requirementsPage.html" class="w3-bar-item w3-button w3-padding-large">Requirements</a>
+            <a href="solutionPage.html" class="w3-bar-item w3-button w3-padding-large">Solution</a>
+            <a href="technologiesPage.html" class="w3-bar-item w3-button w3-padding-large">Technologies</a>
+            <a href="schedulePage.html" class="w3-bar-item w3-button w3-padding-large">Schedule</a>
+            <a href="codePage.html" class="w3-bar-item w3-button w3-padding-large">Code</a>
+        </div>
+    </div>
 
-<!-- Header -->
-<header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Team Members</h1>
+    <!-- Header -->
+    <header class="w3-container w3-light-blue w3-center" style="padding:64px 16px">
+        <h1 class="w3-margin w3-jumbo">Team Members</h1>
 
-  <p class="w3-xlarge">Meet the Team!</p>
-  <!-- Insert Image here if necessary
+        <!-- <p class="w3-xlarge">Meet our team!</p> -->
+        <!-- Insert Image here if necessary
   <img class="w3-image" src="" alt="[Insert Image Here]">
   -->
 
-</header>
+    </header>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Seth Borkovec</h1>
-      <h5 class="w3-padding-32">
-          Team Roles
-      </h5>
-
-      <p class="w3-text-grey">
-            <ul>
-                <li>Team Lead</li>
-                <li>Client Communications</li>
-                <li>Coder</li>
-            </ul>
-            <a href="sethBio.html">Learn More about Seth here!</a>
-      </p>
-    </div>
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Seth Borkovec</h1>
+                <h5 class="w3-padding-small">
+                    Team Roles
+                </h5>
+                <ul>
+                    <li>Team Lead</li>
+                    <li>Client Communications</li>
+                    <li>Coder</li>
+                </ul>
+                <a href="sethBio.html">Learn More about Seth here!</a>
+            </div>
 
 
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red">
-        <img class="picture" src="img/seth.jpg" alt="Seth">
-      </i>
-    </div>
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red">
+                    <img class="picture" src="img/seth.jpg" alt="Seth">
+                </i>
+            </div>
 
-  </div>
-</div>
-
-<!-- Second Grid -->
-<div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
-  <div class="w3-content">
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-        <img class="picture" src="img/ethan.jpg" alt="Ethan">
-    </div>
-
-    <div class="w3-third w3-center">
-        <i class="w3-margin-right"></i>
-      </div>
-
-    <div class="w3-twothird">
-      <h1>Ethan Donnelly</h1>
-      <h5 class="w3-padding-32">
-        Team Roles
-      </h5>
-
-      <p class="w3-text-grey">
-        <ul>
-            <li>Team Recorder</li>
-            <li>Release Manager</li>
-            <li>Coder</li>
-        </ul>
-        <a href="ethanBio.html">Learn More about Ethan here!</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-      <div class="w3-twothird">
-        <h1>Noah Baxter</h1>
-        <h5 class="w3-padding-32">
-            Team Roles
-        </h5>
-
-        <p class="w3-text-grey">
-              <ul>
-                  <li>Team Architect</li>
-                  <li>Editor</li>
-                  <li>Coder</li>
-              </ul>
-              <a href="noahBio.html">Learn More about Noah here!</a>
-        </p>
-      </div>
-
-
-      <div class="w3-third w3-center">
-        <i class="fa fa-anchor w3-padding-64 w3-text-red">
-          <img class="picture" src="img/noah.jpg" alt="Noah">
-        </i>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Second Grid -->
-  <div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
-    <div class="w3-content">
-
-      <div class="w3-third w3-center">
-        <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-
-          <img class="picture" src="img/courtney.jpg" alt="Courtney">
-
-      </div>
-
-      <div class="w3-third w3-center">
-          <i class="w3-margin-right"></i>
         </div>
-
-      <div class="w3-twothird">
-        <h1>Courtney Richmond</h1>
-        <h5 class="w3-padding-32">
-          Team Roles
-        </h5>
-
-        <p class="w3-text-grey">
-            <ul>
-                <li>Product Research Manger</li>
-                <li>Website Designer</li>
-                <li>Coder</li>
-            </ul>
-            <a href="courtneyBio.html">Learn More about Courtney here!</a>
-        </p>
-      </div>
     </div>
-  </div>
 
-<!-- Right Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-      <div class="w3-twothird">
-        <h1>Fabio Santos</h1>
-        <h5 class="w3-padding-32">
-          Team Roles
-        </h5>
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
 
-        <p class="w3-text-grey">
-          Mentor to Team HomeAide. Will be providing guidance to the team on how
-          to approach the project on both a technical and business level and how
-          to interact with clients. He will assist the team with long
-          term software development.
-        </p>
-      </div>
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+                <img class="picture" src="img/ethan.jpg" alt="Ethan">
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>Ethan Donnelly</h1>
+                <h5 class="w3-padding-small">
+                    Team Roles
+                </h5>
+                <ul>
+                    <li>Team Recorder</li>
+                    <li>Release Manager</li>
+                    <li>Coder</li>
+                </ul>
+                <a href="ethanBio.html">Learn More about Ethan here!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Noah Baxter</h1>
+                <h5 class="w3-padding-small">
+                    Team Roles
+                </h5>
+                <ul>
+                    <li>Team Architect</li>
+                    <li>Editor</li>
+                    <li>Coder</li>
+                </ul>
+                <a href="noahBio.html">Learn More about Noah here!</a>
+            </div>
 
 
-      <div class="w3-third w3-center">
-        <i class="fa fa-anchor w3-padding-64 w3-text-red">
-          <!-- INSERT IMAGE HERE
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red">
+                    <img class="picture" src="img/noah.jpg" alt="Noah">
+                </i>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+
+                <img class="picture" src="img/courtney.jpg" alt="Courtney">
+
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>Courtney Richmond</h1>
+                <h5 class="w3-padding-small">
+                    Team Roles
+                </h5>
+                <ul>
+                    <li>Product Research Manger</li>
+                    <li>Website Designer</li>
+                    <li>Coder</li>
+                </ul>
+                <a href="courtneyBio.html">Learn More about Courtney here!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Fabio Santos</h1>
+                <h5 class="w3-padding-small">
+                    Team Mentor
+                </h5>
+                <p class="w3-text-black">
+                    Provides guidance to the team on how
+                    to approach the project on both a technical and business level and how
+                    to interact with clients. He will assist the team with long
+                    term software development.
+                </p>
+            </div>
+
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red">
+                    <!-- INSERT IMAGE HERE
           <img class="picture" src="" alt="">
           -->
-        </i>
-      </div>
+                </i>
+            </div>
 
+        </div>
     </div>
-  </div>
 
-<div class="w3-container w3-cyan w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge"></h1>
-</div>
+    <div class="w3-container w3-cyan w3-center w3-opacity w3-padding-64">
+        <h1 class="w3-margin w3-xlarge"></h1>
+    </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
- </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
 
 </body>
+
 </html>

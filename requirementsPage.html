@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Requirements</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif
+    }
+
+    .w3-bar,
+    h1,
+    button {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .fa-anchor,
+    .fa-coffee {
+        font-size: 200px
+    }
+</style>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+            <a href="teamPage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Team</a>
+            <a href="clientsPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sponsors</a>
+            <a href="documents.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Documents</a>
+            <a href="requirementsPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Requirements</a>
+            <a href="solutionPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Solution</a>
+            <a href="technologiesPage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Technologies</a>
+            <a href="schedulePage.html"
+                class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Schedule</a>
+            <a href="codePage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Code</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a href="teamPage.html" class="w3-bar-item w3-button w3-padding-large">Team</a>
+            <a href="clientsPage.html" class="w3-bar-item w3-button w3-padding-large">Sponsors</a>
+            <a href="documents.html" class="w3-bar-item w3-button w3-padding-large">Documents</a>
+            <a href="requirementsPage.html" class="w3-bar-item w3-button w3-padding-large">Requirements</a>
+            <a href="solutionPage.html" class="w3-bar-item w3-button w3-padding-large">Solution</a>
+            <a href="technologiesPage.html" class="w3-bar-item w3-button w3-padding-large">Technologies</a>
+            <a href="schedulePage.html" class="w3-bar-item w3-button w3-padding-large">Schedule</a>
+            <a href="codePage.html" class="w3-bar-item w3-button w3-padding-large">Code</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-light-blue w3-center" style="padding:64px 16px">
+        <h1 class="w3-margin w3-jumbo">Project Requirements</h1>
+
+        <!-- <p class="w3-xlarge">Here is a brief description of the requirements
+            for this project
+        </p> -->
+
+        <!-- Insert Image here if necessary
+  <img class="w3-image" src="" alt="[Insert Image Here]">
+  -->
+
+    </header>
+
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>AT Recommendations</h1>
+                <h5 class="w3-padding-32">
+                    The app will give tailored recommendations for assistive technologies
+                    specific to the user's situation.
+                </h5>
+
+                <p class="w3-text-grey">
+                    Using factors such as the user's general physical difficulties and
+                    the location in the house, the app will present to the user recommendations
+                    for assistive technologies that may help them live more comfortably
+                    in their own home.
+                </p>
+            </div>
+
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right">
+                    <img class="picture" src="img/check.png" alt="Checkmark">
+                </i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right">
+                    <img class="picture" src="img/check.png" alt="Checkmark">
+                </i>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>AT Inventory Management</h1>
+                <h5 class="w3-padding-32">
+                    We will provide tools on a secure frontend to manage the inventory.
+                </h5>
+
+                <p class="w3-text-grey">
+                    A database will be used to store the inventory of assistive technologies
+                    that will be used by the mobile app. Management of the inventory
+                    will use tools on a secure website using logins. The tools will
+                    allow for adding, removing, and modifying entries in the inventory.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Remember User Profiles</h1>
+                <h5 class="w3-padding-32">
+                    The app will allow the user to create a profile which is saved for
+                    convenience.
+                </h5>
+
+                <p class="w3-text-grey">
+                    The app will remember which AT were recommended, keep track of a
+                    user's favorite recommendations, and remember voluntary information
+                    provided by the user which is used to help give tailored recommendations.
+                </p>
+            </div>
+
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right">
+                    <img class="picture" src="img/check.png" alt="Checkmark">
+                </i>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right">
+                    <img class="picture" src="img/check.png" alt="Checkmark">
+                </i>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>Accessibility</h1>
+                <h5 class="w3-padding-32">
+                    The mobile app will accommodate both visual and physical impairments.
+                </h5>
+
+                <p class="w3-text-grey">
+                    The app will provide different modes for different varieties of
+                    colorblindness. It will also feature text-to-speech and speech-to-text
+                    to allow for easier inputs. The user interface of the app will be
+                    designed with large fonts with large buttons to make it easier for
+                    persons who may have difficulty with dexterity.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1>Addressing a User's Functional Limitations</h1>
+                <h5 class="w3-padding-32">
+                    The app will focus on functional limitations or difficulties and not diagnoses.
+                </h5>
+
+                <p class="w3-text-grey">
+                    The app will never ask for medical information or diagnoses from the
+                    user. Instead, it will ask for difficulties involving the user's
+                    functional limitations and mobility. The information used by the
+                    app will be HIPAA compliant.
+                </p>
+            </div>
+
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-anchor w3-padding-64 w3-text-red">
+                    <img class="picture" src="img/check.png" alt="Checkmark">
+                </i>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Left Grid -->
+    <div class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-third w3-center">
+                <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right">
+                    <img class="picture" src="img/check.png" alt="Checkmark">
+                </i>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>Identify Challenges in the Home</h1>
+                <h5 class="w3-padding-32">
+                    The user can specify difficulties in specific locations inside a home.
+                </h5>
+
+                <p class="w3-text-grey">
+                    The app will allow the user to browse typical rooms in a home
+                    to specify where they have difficulties. The app will provide
+                    recommendations based on the room.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-container w3-cyan w3-center w3-opacity w3-padding-64">
+        <h1 class="w3-margin w3-xlarge"></h1>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity">
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

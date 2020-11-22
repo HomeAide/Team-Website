@@ -44,17 +44,13 @@
                 class="w3-bar-item w3-button w3-padding-large w3-white">Documents</a>
             <a href="requirementsPage.html"
                 class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Requirements</a>
-            <!--
             <a href="solutionPage.html"
                 class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Solution</a>
             <a href="technologiesPage.html"
                 class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Technologies</a>
-            -->
             <a href="schedulePage.html"
                 class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Schedule</a>
-            <!--
             <a href="codePage.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Code</a>
-            -->
         </div>
 
         <!-- Navbar on small screens -->
@@ -83,8 +79,35 @@
 
     </header>
 
-    <!-- First Grid -->
     <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird" style="text-align: left;">
+                <h1>Table of Contents</h1>
+
+                <p class="w3-text-grey">
+                    <ul>
+                        <li><a href="#inventory">Team Inventory</a></li>
+                        <li><a href="#standards">Team Standards</a></li>
+                        <li><a href="#taskreports">Task Reports</a></li>
+                        <li><a href="#mini-intro">Mini-Intro</a></li>
+                        <li><a href="#feasibility">Technological Feasibility</a></li>
+                        <li><a href="#design-review-1">Design Review 1</a></li>
+                        <li><a href="#requirements">Requirements Specification</a></li>
+                        <li><a href="#demo-plan">Technical Demo Plan</a></li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- First Grid -->
+    <div id="inventory" class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
         <div class="w3-content">
             <div class="w3-twothird">
                 <h1>Team Inventory Document</h1>
@@ -113,7 +136,7 @@
     </div>
 
     <!-- Second Grid -->
-    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div id="standards" class="w3-row-padding w3-padding-64 w3-container">
         <div class="w3-content">
 
             <div class="w3-twothird">
@@ -136,8 +159,43 @@
         </div>
     </div>
 
+    <!-- Second Grid -->
+    <div id="taskreports" class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>Task Reports</h1>
+                <h5 class="w3-padding-32">
+                    The task reports contain the tasks that a given team
+                    member(s) have been assigned for a week. They are designed
+                    to help break down the task and help monitor the progress
+                    of the task. These reports are designed to be constantly
+                    updated.
+                </h5>
+
+                <p class="w3-text-grey">
+                    <a target="_blank" href="doc/TaskReport_01_Final.pdf">Week of: September 14th</a><br>
+                    <a target="_blank" href="doc/TaskReport_02_Final.pdf">Week of: September 21st</a><br>
+                    <a target="_blank" href="doc/TaskReport_03_Final.pdf">Week of: September 28th</a><br>
+                    <a target="_blank" href="doc/TaskReport_04_Final.pdf">Week of: October 5th</a><br>
+                    <a target="_blank" href="doc/TaskReport_05_Final.pdf">Week of: October 13th</a><br>
+                    <a target="_blank" href="doc/TaskReport_06_Final.pdf">Week of: October 20th</a><br>
+                    <a target="_blank" href="doc/TaskReport_07_Final.pdf">Week of: October 27th</a><br>
+                    <a target="_blank" href="doc/TaskReport_08_Final.pdf">Week of: November 3rd</a><br>
+                    <a target="_blank" href="doc/TaskReport_09_Final.pdf">Week of: November 10th</a><br>
+                    <a target="_blank" href="doc/TaskReport_10_Final.pdf">Week of: November 17th</a>
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Right Grid -->
-    <div class="w3-row-padding w3-padding-64 w3-container">
+    <div id="mini-intro" class="w3-row-padding w3-padding-64 w3-container">
         <div class="w3-content">
             <div class="w3-twothird">
                 <h1>Mini-Intro</h1>
@@ -149,7 +207,7 @@
                 </h5>
 
                 <p class="w3-text-grey">
-                    <a target="_blank" href="https://youtu.be/dHt0cuHMfVE">Mini-Intro on Youtube</a>
+                    <a target="_blank" href="https://youtu.be/dHt0cuHMfVE">Mini-Intro Presentation (Youtube)</a>
                 </p>
             </div>
 
@@ -157,13 +215,13 @@
     </div>
 
     <!-- Left Grid -->
-    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div id="feasibility" class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
         <div class="w3-content">
 
             <div class="w3-twothird">
                 <h1>Technological Feasibility</h1>
                 <h5 class="w3-padding-32">
-                    The purpose of the Technological Feasibility cocument is to determine
+                    The purpose of the Technological Feasibility document is to determine
                     what technologies are needed for this project, to define the criteria
                     that are important, to compare alternatives, and to describe how the
                     chosen alternatives will integrate.
@@ -183,25 +241,67 @@
     </div>
 
     <!-- Left Grid -->
-    <div class="w3-row-padding w3-padding-64 w3-container">
+    <div id="design-review-1" class="w3-row-padding w3-padding-64 w3-container">
         <div class="w3-content">
 
             <div class="w3-twothird">
                 <h1>Design Review 1 Presentation</h1>
                 <h5 class="w3-padding-32">
-                    The purpose of the Technological Feasibility cocument is to determine
-                    what technologies are needed for this project, to define the criteria
-                    that are important, to compare alternatives, and to describe how the
-                    chosen alternatives will integrate.
+                    The purpose of the Design Review 1 presentation is to communicate
+                    our team's work status and to explain the purpose and need for our
+                    project in more detail than the Mini Intro presentation.
                 </h5>
 
                 <p class="w3-text-grey">
-<<<<<<< HEAD
-                    <a target="_blank" href="https://youtu.be/v04tsCPAlWk">Presentation video (Youtube)</a><br>
-=======
-                    <a target="_blank" href="https://youtu.be/Yocwvb8B6Os">Presentation video (Youtube)</a><br>
->>>>>>> 6c62a883635251af5c269d3b848ab49d5c0b55dc
-                    <a target="_blank" href="doc/Design Review 1 - Final.pdf">Presentation slides</a>
+                    <a target="_blank" href="https://youtu.be/v04tsCPAlWk">Presentation Video (Youtube)</a><br>
+                    <a target="_blank" href="doc/Design Review 1 - Final.pdf">Presentation Slides</a>
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Left Grid -->
+    <div id="requirements" class="w3-row-padding w3-pale-blue w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>Requirements Specification</h1>
+                <h5 class="w3-padding-32">
+                    The purpose of the Requirements Specification document is to catalog
+                    the requirements for this project to be successful, to explain the solution
+                    implementation, and to communicate risks with their mitigations.
+                </h5>
+
+                <p class="w3-text-grey">
+                    <!--<a target="_blank" href="">-->Requirements Specification Document<!--</a>--> (link coming soon!)
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i class="w3-margin-right"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="demo-plan" class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+
+            <div class="w3-twothird">
+                <h1>Technical Demo Plan</h1>
+                <h5 class="w3-padding-32">
+                    The purpose of the Technical Demo Plan is to prove that the technologies
+                    we have chosen do indeed work as a solution. We identify the main technological
+                    integration challenges and build a demo to show that these challenges will be overcome.
+                </h5>
+
+                <p class="w3-text-grey">
+                    <a target="_blank" href="doc/Technical Demo Plan.pdf">Technical Demo Plan</a>
                 </p>
             </div>
 
